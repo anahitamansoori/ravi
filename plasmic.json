@@ -5,6 +5,10 @@
     "scheme": "blackbox",
     "reactRuntime": "classic"
   },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
   "images": {
     "scheme": "public-files",
     "publicDir": "../public",
@@ -16,12 +20,143 @@
   },
   "srcDir": "components",
   "defaultPlasmicDir": "./plasmic",
-  "projects": [],
-  "globalVariants": {},
+  "projects": [
+    {
+      "projectId": "iL387AS9tE8PzXTV5qkjiz",
+      "projectApiToken": "snF9BcbhtA1Hkw87CxRnenH7HGecLFp5R3fYjy9kORKiRuWRXK8fNJsIMF59Kr8KfLn8t3QQJKZQg7xYjGKEQ",
+      "projectName": "Website starter",
+      "version": "latest",
+      "cssFilePath": "plasmic/website_starter/plasmic.module.css",
+      "components": [
+        {
+          "id": "gF7oICiDV_0p",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "iL387AS9tE8PzXTV5qkjiz",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../src/pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/website_starter/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "pV4NwQ_hlbxM",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "KfQ06HnPTDLe",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "hyMOfOvVhiCT",
+          "name": "DatePicker",
+          "displayName": "DatePicker",
+          "componentImportPath": "@/fragment/components/date-picker"
+        },
+        {
+          "id": "tH4djkBXXjkO",
+          "name": "TimePicker",
+          "displayName": "TimePicker",
+          "componentImportPath": "@/fragment/components/time-picker"
+        },
+        {
+          "id": "XCrEep4-_9r2",
+          "name": "Popover",
+          "displayName": "Popover",
+          "componentImportPath": "@/fragment/components/popover"
+        },
+        {
+          "id": "L4V1v0dwVLVT",
+          "name": "Select",
+          "displayName": "Select",
+          "componentImportPath": "@/fragment/components/select"
+        },
+        {
+          "id": "tQHoMQ3Y7ev_",
+          "name": "Input",
+          "displayName": "Input",
+          "componentImportPath": "@/fragment/components/input"
+        },
+        {
+          "id": "ikPL5qbtKonG",
+          "name": "Switch",
+          "displayName": "Switch",
+          "componentImportPath": "@/fragment/components/switch"
+        },
+        {
+          "id": "8b82IKW2-ysj",
+          "name": "Slider",
+          "displayName": "Slider",
+          "componentImportPath": "@/fragment/components/slider"
+        },
+        {
+          "id": "0eNz6sattWwU",
+          "name": "ApiRequest",
+          "displayName": "ApiRequest",
+          "componentImportPath": "@/fragment/components/api-request"
+        },
+        {
+          "id": "tuKAIHGfc3Yy",
+          "name": "Chart",
+          "displayName": "Chart",
+          "componentImportPath": "@/fragment/components/chart"
+        },
+        {
+          "id": "evGe1fhZBlps",
+          "name": "Textarea",
+          "displayName": "Textarea",
+          "componentImportPath": "@/fragment/components/textarea"
+        },
+        {
+          "id": "-K4-JoQYQAFy",
+          "name": "Fragment",
+          "displayName": "Fragment",
+          "componentImportPath": "@/fragment/fragment"
+        },
+        {
+          "id": "bqstpWvzQJbJ",
+          "name": "GrowthBook",
+          "displayName": "GrowthBook",
+          "componentImportPath": "@/fragment/growthbook"
+        },
+        {
+          "id": "-n_VybhJsOWZ",
+          "name": "Splunk",
+          "displayName": "Splunk",
+          "componentImportPath": "@/fragment/splunk"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "JAImis-3JP5J",
+        "name": "Screen",
+        "projectId": "iL387AS9tE8PzXTV5qkjiz",
+        "contextFilePath": "plasmic/website_starter/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
   "wrapPagesWithGlobalContexts": true,
   "nextjsConfig": {
     "pagesDir": "../src/pages"
   },
-  "cliVersion": "0.1.330",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
 }
